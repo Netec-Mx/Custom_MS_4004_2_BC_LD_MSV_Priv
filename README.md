@@ -1,10 +1,10 @@
 <img src="images/neteclogo (2).png" alt="logo" width="300"/>
 
-# Capacita a tus empleados con Microsoft 365 Copilot: Casos de uso — Negocios y Ventas
+# Capacita a tus empleados con Microsoft 365 Copilot: Casos de uso Negocios y Ventas
 
 ## Plataforma de laboratorios
 
-Te damos la bienvenida a la **plataforma de laboratorios** del curso **Custom MS-4004.2 BC LD MSV (Priv)**. Aquí podrás desarrollar un caso transversal de negocio utilizando Microsoft 365 Copilot, Investigador (Researcher), Analista (Analyst), Copilot Notebooks, Excel y PowerPoint para investigar el contexto de un cliente, analizar datos, formular oportunidades, evaluar escenarios y comunicar una propuesta ejecutiva.
+Te damos la bienvenida a la **plataforma de laboratorios** del curso **Capacita a tus empleados con Microsoft 365 Copilot: Casos de uso Negocios y Ventas**. Aquí podrás desarrollar un caso transversal de negocio utilizando Microsoft 365 Copilot, Investigador (Researcher), Analista (Analyst), Copilot Notebooks, Excel y PowerPoint para investigar el contexto de un cliente, analizar datos, formular oportunidades, evaluar escenarios y comunicar una propuesta ejecutiva.
 
 ## Lista de laboratorios
 
