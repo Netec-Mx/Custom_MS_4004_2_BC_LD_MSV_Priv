@@ -9,11 +9,25 @@ Práctica 2 (7 min): A partir de los hallazgos obtenidos, los participantes soli
 
 ## Pasos para ejecutar la práctica
 
-1. **Análisis de datos con el agente Analista (13 min):**
-   * Selecciona el agente **Analista (Analyst)** en Microsoft 365 Copilot.
-   * Adjunta o vincula el archivo con los datos ficticios del cliente (ingresos, regiones, unidades de negocio, inversiones) y envía el siguiente prompt:
+1. **Generación del conjunto de datos ficticios del cliente:**
+   * Abre Microsoft 365 Copilot Chat y envía el siguiente prompt para generar el dataset autosuficiente:
      ```text
-     Analiza el conjunto de datos adjunto del cliente corporativo ficticio sobre la evolución de sus ingresos, comportamiento regional, desempeño por unidad de negocio e inversiones de capital.
+     Genera una tabla de datos ficticios en formato Markdown sobre el desempeño financiero de un cliente corporativo para los últimos 3 años (2023, 2024, 2025).
+     
+     Incluye exactamente las siguientes columnas:
+     | Año | Region | Unidad_de_Negocio | Ingresos_USD | Crecimiento_Pct | Inversion_CAPEX_USD | Margen_Operativo_Pct |
+     
+     Asegúrate de incluir 8 filas de datos mostrando variaciones contrastantes (por ejemplo: fuerte crecimiento e inversión en la Región Norte, pero caída de margen en la Región Sur e ingresos estancados en la unidad tradicional).
+     ```
+
+2. **Análisis de datos con el agente Analista (13 min):**
+   * Copia la tabla de datos generada en el paso anterior.
+   * Selecciona el agente **Analista (Analyst)** en Microsoft 365 Copilot.
+   * Pega la tabla o envía el siguiente prompt adjuntando la información:
+     ```text
+     Analiza el siguiente conjunto de datos del cliente corporativo sobre la evolución de sus ingresos, comportamiento regional, desempeño por unidad de negocio e inversiones:
+
+     [Pega aquí la tabla de datos generada en el Paso 1]
      
      Identifica:
      1. Patrones anómalos, variaciones significativas y relaciones entre variables de crecimiento.
@@ -22,16 +36,16 @@ Práctica 2 (7 min): A partir de los hallazgos obtenidos, los participantes soli
         - HIPÓTESIS QUE REQUIEREN PROFUNDIZACIÓN (supuestos derivados del comportamiento de los datos).
      ```
 
-2. **Formulación y vinculación de hipótesis de oportunidad (7 min):**
+3. **Formulación y vinculación de hipótesis de oportunidad (7 min):**
    * Copia el resultado del análisis anterior, regresa a Copilot Chat y envía el siguiente prompt:
      ```text
-     Con base en los hallazgos de datos obtenidos por el Analista [Pega los hallazgos], formula 3 hipótesis de oportunidad de negocio estructuradas.
+     Con base en los hallazgos de datos obtenidos por el Analista [Pega los hallazgos del Paso 2], formula 3 hipótesis de oportunidad de negocio estructuradas.
      
      Para cada hipótesis exige la siguiente estructura obligatoria:
      1. Evidencia origen (el dato numérico exacto que la respalda).
      2. Necesidad potencial del cliente (qué problema o reto operativo/financiero deduce).
-     3. Información faltante (qué datos adicionales se deben validar obligatoriamente antes de estructurar una propuesta comercial).
+     3. Información faltante (qué datos adicionales se deben validar obligatoriamente antes de convertirla en una propuesta comercial).
      ```
 
 ## Resultado esperado
-Un diagnóstico analítico dividiendo hechos cuantitativos e hipótesis, acompañado de una matriz de 3 oportunidades comerciales fundamentadas en la evidencia de datos e identificando las variables críticas a validar.
+Un conjunto de datos cuantitativos generado de forma autónoma, un diagnóstico analítico que divide hechos e hipótesis, y una matriz de 3 oportunidades comerciales fundamentadas en evidencia que identifica los datos críticos por validar.
