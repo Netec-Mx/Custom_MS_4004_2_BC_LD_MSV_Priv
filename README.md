@@ -12,33 +12,33 @@ Cada práctica está diseñada para avanzar de forma progresiva sobre el mismo c
 
 ### [Práctica 1](Laboratorios/laboratorio1.md)
 
-- **Descripción**: Estructurar una solicitud de negocio ambigua para definir qué información debe investigarse, qué evidencia se espera obtener y qué aspectos no deben asumirse sin información suficiente.
+- **Descripción**: Convertir información en preguntas de negocio.
 - ⏱️ **Duración estimada**: 6 min
 
 ### [Práctica 2](Laboratorios/laboratorio2.md)
 
-- **Descripción**: Utilizar Investigador (Researcher) para analizar tendencias, movimientos competitivos, factores económicos, sostenibilidad y otros elementos del entorno, conservando fuentes y diferenciando evidencia de interpretación.
+- **Descripción**: Investigar el contexto del cliente con el agente Investigador.
 - ⏱️ **Duración estimada**: 16 min
 
 ### [Práctica 3](Laboratorios/laboratorio3.md)
 
-- **Descripción**: Analizar datos ficticios del cliente con Analista (Analyst) para identificar patrones, variaciones, relaciones entre variables y hallazgos sustentados por evidencia, separándolos de hipótesis que requieren validación.
-- ⏱️ **Duración estimada**: 13 min
+- **Descripción**: Descubrir oportunidades potenciales mediante el agente Analista.
+- ⏱️ **Duración estimada**: 20 min
 
 ### [Práctica 4](Laboratorios/laboratorio4.md)
 
-- **Descripción**: Formular hipótesis de necesidades u oportunidades a partir de los hallazgos obtenidos, vinculando cada hipótesis con su evidencia e identificando la información adicional necesaria antes de convertirla en una propuesta.
-- ⏱️ **Duración estimada**: 7 min
+- **Descripción**: Integrar la inteligencia de negocio con Copilot Notebooks.
+- ⏱️ **Duración estimada**: 15 min
 
 ### [Práctica 5](Laboratorios/laboratorio5.md)
 
-- **Descripción**: Reunir en Copilot Notebook los resultados obtenidos con Investigador y Analista para construir una síntesis integrada de tendencias externas, hallazgos de datos y necesidades potenciales del cliente.
-- ⏱️ **Duración estimada**: 8 min
+- **Descripción**: Evaluar una oportunidad mediante Copilot en Excel.
+- ⏱️ **Duración estimada**: 20 min
 
 ### [Práctica 6](Laboratorios/laboratorio6.md)
 
-- **Descripción**: Generar un mapa mental a partir del contenido consolidado en el Notebook para organizar retos, necesidades, factores externos y oportunidades, identificando relaciones y prioridades para continuar con la evaluación.
-- ⏱️ **Duración estimada**: 7 min
+- **Descripción**:Preparar y poner a prueba la conversación con el cliente.
+- ⏱️ **Duración estimada**: 20 min
 
 ---
 
