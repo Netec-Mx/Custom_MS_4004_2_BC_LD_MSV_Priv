@@ -11,7 +11,7 @@ Práctica 3 (4 min): Con los resultados obtenidos, los participantes solicitará
 
 ## Pasos para ejecutar la práctica
 
-1. **Construcción de escenarios en Excel en modo Plan (8 min):**
+1. **Construcción de escenarios en Excel en modo Plan:**
    * Abre un libro nuevo en **Microsoft Excel** y guarda el archivo con el nombre: `Evaluacion_Escenarios_Oportunidad.xlsx`.
    * Activa el panel de Copilot en Excel en modo **Plan** y envía:
      ```text
@@ -20,7 +20,7 @@ Práctica 3 (4 min): Con los resultados obtenidos, los participantes solicitará
      Estructura las columnas con: Variable/Supuesto, Escenario Conservador, Escenario Base y Escenario Expansivo. Incluye supuestos explícitos sobre monto estimado de inversión, tasa esperada, retorno de cartera y reducción de costos operativos.
      ```
 
-2. **Análisis, fórmulas y visualización en modo Edición (8 min):**
+2. **Análisis, fórmulas y visualización en modo Edición:**
    * Cambia el panel de Copilot en Excel al modo **Permitir la edición** (Edición).
    * Envía la siguiente instrucción y guarda los cambios en el archivo:
      ```text
@@ -29,7 +29,7 @@ Práctica 3 (4 min): Con los resultados obtenidos, los participantes solicitará
      Finalmente, indícame mediante un mensaje cuál variable tiene mayor sensibilidad e incidencia en los resultados y requiere validación previa con el cliente.
      ```
 
-3. **Definición de la Oferta de Valor E-E-O-V (4 min):**
+3. **Definición de la Oferta de Valor E-E-O-V:**
    * Abre Copilot Chat, adjunta el archivo guardado `Evaluacion_Escenarios_Oportunidad.xlsx` y envía:
      ```text
      Con base en el análisis de escenarios del archivo adjunto Evaluacion_Escenarios_Oportunidad.xlsx, redacta la Oferta de Valor Preliminar para el cliente.
