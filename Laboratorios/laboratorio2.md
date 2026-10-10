@@ -10,24 +10,21 @@ Los participantes utilizarán Investigador (Researcher) para analizar un sector 
 1. **Selección del agente especializado:**
    * En la interfaz de Microsoft 365 Copilot, selecciona y activa el agente **Investigador (Researcher)**.
 
-2. **Ejecución de la investigación de entorno y exportación:**
-   * Copia, pega y envía el siguiente prompt detallado al agente Investigador:
+2. **Ejecución de la investigación rápida de entorno:**
+   * Copia, pega y envía el siguiente prompt optimizado al agente Investigador:
      ```text
-     Realiza una investigación exhaustiva del sector corporativo de manufactura y distribución comercial en la región para los últimos 12 meses.
+     Investiga brevemente el sector de manufactura y distribución comercial en la región (últimos 6 meses).
      
-     Analiza exactamente los siguientes ejes:
-     1. Tendencias principales del sector y movimientos competitivos.
-     2. Factores macroeconómicos e iniciativas de sostenibilidad que impactan al sector.
-     3. Cambios en las necesidades de liquidez, inversión y financiamiento de las empresas del sector.
+     Resume en 3 puntos clave:
+     1. Principal tendencia del sector y movimiento competitivo.
+     2. Factor macroeconómico o de sostenibilidad con mayor impacto.
+     3. Principal necesidad de liquidez o financiamiento identificada.
      
-     Restricciones e instrucciones estrictas de formato:
-     - El reporte debe conservar fuentes públicas consultadas y fechas explícitas de la información.
-     - Separa claramente los DATOS Y EVIDENCIA OBJETIVA de tus INTERPRETACIONES.
-     - Identifica los factores que afectan el crecimiento sin recomendar aún productos o servicios financieros específicos del Banco.
+     Formato: Resumen directo y conciso. Incluye fechas y fuentes clave. Separa datos objetivos de interpretaciones. No recomiendes productos financieros.
      ```
 
 3. **Exportación del informe a documento Word:**
    * Al finalizar la respuesta de Copilot, utiliza el botón de exportación o selecciona **Exportar a Word** y guarda el archivo generado con el nombre exacto: `Reporte_Investigacion_Sector.docx`.
 
 ## Resultado esperado
-Un documento guardado como `Reporte_Investigacion_Sector.docx` con el informe técnico de inteligencia de mercado respaldado por fuentes públicas y fechas.
+Un documento guardado como `Reporte_Investigacion_Sector.docx` generado de forma ágil con el resumen de inteligencia de mercado respaldado por fuentes públicas.
