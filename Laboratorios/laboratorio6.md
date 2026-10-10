@@ -11,7 +11,7 @@ Práctica 3 (7 min): Los participantes solicitarán a Copilot asumir el rol de u
 
 ## Pasos para ejecutar la práctica
 
-1. **Redacción y guardado del Speech Ejecutivo (5 min):**
+1. **Redacción y guardado del Speech Ejecutivo:**
    * En Copilot Chat, envía la siguiente solicitud:
      ```text
      Redacta un speech comercial ejecutivo de 2 minutos para el Gerente de Relación con el cliente corporativo basándote en la oferta de valor desarrollada.
@@ -20,7 +20,7 @@ Práctica 3 (7 min): Los participantes solicitarán a Copilot asumir el rol de u
      ```
    * Exporta la respuesta a un documento de Word con el nombre: `Speech_Comercial_Cliente.docx`.
 
-2. **Generación de la Presentación en PowerPoint (8 min):**
+2. **Generación de la Presentación en PowerPoint:**
    * Abre **Microsoft PowerPoint** y activa Copilot.
    * Adjunta o vincula los archivos creados en los laboratorios anteriores (`Hallazgos_y_Oportunidades_Cliente.docx`, `Evaluacion_Escenarios_Oportunidad.xlsx` y `Speech_Comercial_Cliente.docx`) y envía la siguiente orden:
      ```text
@@ -34,7 +34,7 @@ Práctica 3 (7 min): Los participantes solicitarán a Copilot asumir el rol de u
      Asegúrate de que en cada diapositiva se diferencie explícitamente entre Hechos, Hipótesis y Supuestos.
      ```
 
-3. **Simulación y Juego de Roles con el Cliente (7 min):**
+3. **Simulación y Juego de Roles con el Cliente:**
    * Abre Copilot Chat, adjunta el documento `Speech_Comercial_Cliente.docx` y ejecuta el siguiente prompt:
      ```text
      Con base en el documento adjunto Speech_Comercial_Cliente.docx, asume el rol del Director Financiero (CFO) del cliente corporativo ficticio. Tu objetivo es cuestionar mi propuesta comercial de forma crítica.
