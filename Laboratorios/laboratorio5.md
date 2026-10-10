@@ -1,6 +1,6 @@
 # Laboratorio 5: Evaluar una oportunidad mediante Copilot en Excel
 
-**Duración:** 20 min
+**Duración:** 23 min
 
 ## Descripción
 Práctica 1 (8 min): Los participantes seleccionarán una de las oportunidades identificadas y utilizarán Copilot en modo Plan para estructurar en un libro nuevo un instrumento de análisis con los supuestos y variables necesarias para evaluarla. Construirán distintos escenarios ilustrativos (por ejemplo, conservador, base y expansivo) utilizando exclusivamente información ficticia y supuestos explícitos.
@@ -12,8 +12,8 @@ Práctica 3 (4 min): Con los resultados obtenidos, los participantes solicitará
 ## Pasos para ejecutar la práctica
 
 1. **Construcción de escenarios en Excel en modo Plan (8 min):**
-   * Abre un libro nuevo en **Microsoft Excel** y activa el panel de Copilot en modo **Plan**.
-   * Envía el siguiente prompt para estructurar la herramienta de evaluación:
+   * Abre un libro nuevo en **Microsoft Excel** y guarda el archivo con el nombre: `Evaluacion_Escenarios_Oportunidad.xlsx`.
+   * Activa el panel de Copilot en Excel en modo **Plan** y envía:
      ```text
      Crea una tabla de evaluación financiera para una oportunidad de expansión de líneas de crédito y gestión de capital de trabajo de un cliente corporativo.
      
@@ -22,19 +22,19 @@ Práctica 3 (4 min): Con los resultados obtenidos, los participantes solicitará
 
 2. **Análisis, fórmulas y visualización en modo Edición (8 min):**
    * Cambia el panel de Copilot en Excel al modo **Permitir la edición** (Edición).
-   * Envía la siguiente instrucción:
+   * Envía la siguiente instrucción y guarda los cambios en el archivo:
      ```text
-     Incorpora los cálculos necesarios para comparar el valor neto esperado entre los tres escenarios, aplica un formato condicional a los resultados y genera un gráfico comparativo de barras. 
+     Incorpora los cálculos necesarios para comparar el valor neto esperado entre los tres escenarios, aplica un formato condicional a los resultados y genera un gráfico comparativo de barras. Guardar la estructura en el libro.
      
      Finalmente, indícame mediante un mensaje cuál variable tiene mayor sensibilidad e incidencia en los resultados y requiere validación previa con el cliente.
      ```
 
 3. **Definición de la Oferta de Valor E-E-O-V (4 min):**
-   * Copia el resumen numérico de los escenarios, regresa a Copilot Chat y envía:
+   * Abre Copilot Chat, adjunta el archivo guardado `Evaluacion_Escenarios_Oportunidad.xlsx` y envía:
      ```text
-     Con base en el análisis financiero de escenarios [Pega el resumen de Excel], redacta la Oferta de Valor Preliminar para el cliente.
+     Con base en el análisis de escenarios del archivo adjunto Evaluacion_Escenarios_Oportunidad.xlsx, redacta la Oferta de Valor Preliminar para el cliente.
      
-     Aplica obligatoriamente el esquema:
+     Aplica el esquema:
      - Necesidad detectada
      - Evidencia de respaldo
      - Oportunidad propuesta
@@ -44,4 +44,4 @@ Práctica 3 (4 min): Con los resultados obtenidos, los participantes solicitará
      ```
 
 ## Resultado esperado
-Un modelo financiero interactivo en Excel con tres escenarios (conservador, base y expansivo), fórmulas de comparación, gráficos de sensibilidad y un enunciado formal de propuesta de valor en formato Necesidad + Evidencia + Oportunidad + Valor Esperado.
+Un modelo financiero guardado en `Evaluacion_Escenarios_Oportunidad.xlsx` con tres escenarios, cálculos automatizados y gráficos, más el enunciado formal de la oferta de valor formulado a partir del archivo.
