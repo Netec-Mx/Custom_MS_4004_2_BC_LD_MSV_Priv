@@ -10,21 +10,21 @@ Los participantes utilizarán Investigador (Researcher) para analizar un sector 
 1. **Selección del agente especializado:**
    * En la interfaz de Microsoft 365 Copilot, selecciona y activa el agente **Investigador (Researcher)**.
 
-2. **Ejecución de la investigación rápida de entorno:**
-   * Copia, pega y envía el siguiente prompt optimizado al agente Investigador:
+2. **Ejecución de la investigación ultrarrápida de entorno:**
+   * Copia, pega y envía el siguiente prompt optimizado para consulta ligera:
      ```text
-     Investiga brevemente el sector de manufactura y distribución comercial en la región (últimos 6 meses).
+     Realiza una búsqueda rápida y puntual sobre el sector de manufactura y distribución en la región (últimos 6 meses).
      
-     Resume en 3 puntos clave:
-     1. Principal tendencia del sector y movimiento competitivo.
-     2. Factor macroeconómico o de sostenibilidad con mayor impacto.
-     3. Principal necesidad de liquidez o financiamiento identificada.
+     Entrega una respuesta ultracorta de 3 viñetas directas:
+     1. Tendencia y competencia.
+     2. Factor económico o sostenibilidad.
+     3. Necesidad de financiamiento.
      
-     Formato: Resumen directo y conciso. Incluye fechas y fuentes clave. Separa datos objetivos de interpretaciones. No recomiendes productos financieros.
+     Restricción: Limita la búsqueda a un resumen ejecutivo de máximo 150 palabras. Conserva fuentes principales y fechas. Separa evidencia de interpretación sin recomendar productos financieros.
      ```
 
 3. **Exportación del informe a documento Word:**
-   * Al finalizar la respuesta de Copilot, utiliza el botón de exportación o selecciona **Exportar a Word** y guarda el archivo generado con el nombre exacto: `Reporte_Investigacion_Sector.docx`.
+   * Al finalizar la respuesta de Copilot, utiliza el botón de opciones/exportar o selecciona **Exportar a Word** y guarda el archivo generado con el nombre exacto: `Reporte_Investigacion_Sector.docx`.
 
 ## Resultado esperado
-Un documento guardado como `Reporte_Investigacion_Sector.docx` generado de forma ágil con el resumen de inteligencia de mercado respaldado por fuentes públicas.
+Un documento guardado como `Reporte_Investigacion_Sector.docx` con el resumen de inteligencia de mercado generado por el agente Investigador bajo una ejecución optimizada.
