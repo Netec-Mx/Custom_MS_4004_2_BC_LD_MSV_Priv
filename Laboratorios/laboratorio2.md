@@ -10,7 +10,7 @@ Los participantes utilizarán Investigador (Researcher) para analizar un sector 
 1. **Selección del agente especializado:**
    * En la interfaz de Microsoft 365 Copilot, selecciona y activa el agente **Investigador (Researcher)**.
 
-2. **Ejecución de la investigación de entorno y sector:**
+2. **Ejecución de la investigación de entorno y exportación:**
    * Copia, pega y envía el siguiente prompt detallado al agente Investigador:
      ```text
      Realiza una investigación exhaustiva del sector corporativo de manufactura y distribución comercial en la región para los últimos 12 meses.
@@ -26,8 +26,8 @@ Los participantes utilizarán Investigador (Researcher) para analizar un sector 
      - Identifica los factores que afectan el crecimiento sin recomendar aún productos o servicios financieros específicos del Banco.
      ```
 
-3. **Revisión del reporte generado:**
-   * Valida que el informe entregado por el agente distinga adecuadamente los hechos con fuentes frente a las hipótesis analíticas.
+3. **Exportación del informe a documento Word:**
+   * Al finalizar la respuesta de Copilot, utiliza el botón de exportación o selecciona **Exportar a Word** y guarda el archivo generado con el nombre exacto: `Reporte_Investigacion_Sector.docx`.
 
 ## Resultado esperado
-Un informe técnico de inteligencia de mercado generado por Investigador (Researcher), respaldado por fuentes públicas y fechas, que mapea tendencias, factores económicos y necesidades del sector sin incluir recomendaciones comerciales prematuras.
+Un documento guardado como `Reporte_Investigacion_Sector.docx` con el informe técnico de inteligencia de mercado respaldado por fuentes públicas y fechas.
