@@ -11,23 +11,23 @@ Práctica 2 (7 min): A partir del contenido incorporado al Notebook, los partici
 
 1. **Construcción de la visión integrada en Copilot Notebooks (8 min):**
    * Abre **Copilot Notebooks** (Bloc de notas de Copilot).
-   * Pega en las notas los textos obtenidos previamente con el agente Investigador (tendencias de mercado) y el agente Analista (hallazgos de datos del cliente).
-   * En el panel de instrucciones de Notebooks, envía el siguiente prompt utilizando el cuaderno como contexto delimitado:
+   * Adjunta o vincula como fuente de contexto los dos archivos creados previamente: `Reporte_Investigacion_Sector.docx` y `Hallazgos_y_Oportunidades_Cliente.docx`.
+   * En el panel de instrucciones de Notebooks, envía el siguiente prompt:
      ```text
-     Sintetiza la información recopilada en este Notebook integrando el contexto externo y los datos internos del cliente.
+     Sintetiza la información recopilada en los dos archivos vinculados en este Notebook (Reporte_Investigacion_Sector.docx y Hallazgos_y_Oportunidades_Cliente.docx).
      
      Estructura la respuesta en:
-     1. Coincidencias clave (donde las tendencias de mercado confirman los hallazgos de datos del cliente).
-     2. Divergencias o discrepancias (aspectos donde los datos del cliente contradicen la tendencia del sector).
+     1. Coincidencias clave (donde las tendencias del sector confirman los datos internos del cliente).
+     2. Divergencias o discrepancias entre el sector y el cliente.
      3. Lista de necesidades potenciales integradas que requieren validación urgente.
      ```
 
 2. **Generación del Mapa Mental estructurado (7 min):**
-   * En el mismo Copilot Notebook, envía la siguiente instrucción para representar visualmente el análisis:
+   * En el mismo Copilot Notebook, envía la siguiente instrucción para estructurar la visualización:
      ```text
-     A partir del contexto unificado del Notebook, genera la estructura jerárquica de un Mapa Mental de Inteligencia del Cliente.
+     A partir del contexto unificado de los archivos vinculados en este Notebook, genera la estructura jerárquica de un Mapa Mental de Inteligencia del Cliente.
      
-     Utiliza sintaxis de texto con niveles de sangría y viñetas para organizar:
+     Organiza con sangría y viñetas:
      - Nodo Principal: Cliente Corporativo - Oportunidades 2026
        - Rama 1: Retos y Factores Externos (Mercado)
        - Rama 2: Hallazgos de Desempeño Interno (Datos)
@@ -36,4 +36,4 @@ Práctica 2 (7 min): A partir del contenido incorporado al Notebook, los partici
      ```
 
 ## Resultado esperado
-Un documento síntesis en Copilot Notebooks que cruza tendencias externas con datos internos del cliente, complementado por un mapa mental jerárquico que prioriza visualmente los retos, hallazgos y oportunidades de negocio a evaluar.
+Un análisis unificado en Copilot Notebooks alimentado directamente por los archivos de los laboratorios anteriores, junto con un mapa mental jerárquico estructurado.
