@@ -9,14 +9,14 @@ Práctica 2 (7 min): A partir de los hallazgos obtenidos, los participantes soli
 
 ## Pasos para ejecutar la práctica
 
-1. **Generación y exportación de la base de datos del cliente (0 min):**
+1. **Generación y exportación de la base de datos del cliente:**
    * En Copilot Chat, envía el siguiente prompt para crear la base de datos:
      ```text
      Genera una tabla de datos ficticios sobre el desempeño financiero de un cliente corporativo para los últimos 3 años (2023, 2024, 2025). Incluye las columnas: Año, Region, Unidad_de_Negocio, Ingresos_USD, Crecimiento_Pct, Inversion_CAPEX_USD y Margen_Operativo_Pct con 8 filas de datos con variaciones contrastantes.
      ```
    * Exporta o guarda la tabla generada en Microsoft Excel con el nombre: `Datos_Cliente_Corporativo.xlsx`.
 
-2. **Análisis de datos con el agente Analista (13 min):**
+2. **Análisis de datos con el agente Analista:**
    * Activa el agente **Analista (Analyst)** en Microsoft 365 Copilot.
    * Adjunta o selecciona el archivo `Datos_Cliente_Corporativo.xlsx` creado en el paso anterior y envía:
      ```text
@@ -29,7 +29,7 @@ Práctica 2 (7 min): A partir de los hallazgos obtenidos, los participantes soli
         - HIPÓTESIS QUE REQUIEREN PROFUNDIZACIÓN (supuestos derivados del comportamiento de los datos).
      ```
 
-3. **Formulación de hipótesis y exportación a documento Word (7 min):**
+3. **Formulación de hipótesis y exportación a documento Word:**
    * En el mismo chat, envía el siguiente prompt indicando que tome los resultados del análisis realizado:
      ```text
      Con base en los hallazgos cuantitativos obtenidos del archivo Datos_Cliente_Corporativo.xlsx, formula 3 hipótesis de oportunidad de negocio estructuradas.
