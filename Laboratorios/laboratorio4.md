@@ -9,7 +9,7 @@ Práctica 2 (7 min): A partir del contenido incorporado al Notebook, los partici
 
 ## Pasos para ejecutar la práctica
 
-1. **Construcción de la visión integrada en Copilot Notebooks (8 min):**
+1. **Construcción de la visión integrada en Copilot Notebooks:**
    * Abre **Copilot Notebooks** (Bloc de notas de Copilot).
    * Adjunta o vincula como fuente de contexto los dos archivos creados previamente: `Reporte_Investigacion_Sector.docx` y `Hallazgos_y_Oportunidades_Cliente.docx`.
    * En el panel de instrucciones de Notebooks, envía el siguiente prompt:
@@ -22,7 +22,7 @@ Práctica 2 (7 min): A partir del contenido incorporado al Notebook, los partici
      3. Lista de necesidades potenciales integradas que requieren validación urgente.
      ```
 
-2. **Generación del Mapa Mental estructurado (7 min):**
+2. **Generación del Mapa Mental estructurado:**
    * En el mismo Copilot Notebook, envía la siguiente instrucción para estructurar la visualización:
      ```text
      A partir del contexto unificado de los archivos vinculados en este Notebook, genera la estructura jerárquica de un Mapa Mental de Inteligencia del Cliente.
