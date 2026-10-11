@@ -3,11 +3,11 @@
 **Duración:** 20 min
 
 ## Descripción
-Práctica 1 (5 min): Los participantes solicitarán a Copilot preparar un breve speech ejecutivo para presentar la oportunidad seleccionada ante el cliente. La conversación deberá partir de la comprensión de sus necesidades y de la evidencia analizada antes de introducir la propuesta de valor.
+Práctica 1: Los participantes solicitarán a Copilot preparar un breve speech ejecutivo para presentar la oportunidad seleccionada ante el cliente. La conversación deberá partir de la comprensión de sus necesidades y de la evidencia analizada antes de introducir la propuesta de valor.
 
-Práctica 2 (8 min): A partir de los resultados del caso, los participantes utilizarán Copilot en PowerPoint para generar una presentación ejecutiva breve que sintetice contexto del cliente, necesidad identificada, evidencia relevante, oportunidad propuesta, escenarios analizados y próximos pasos. Se revisará la estructura generada para asegurar que la presentación diferencie claramente hechos, hipótesis y supuestos.
+Práctica 2: A partir de los resultados del caso, los participantes utilizarán Copilot en PowerPoint para generar una presentación ejecutiva breve que sintetice contexto del cliente, necesidad identificada, evidencia relevante, oportunidad propuesta, escenarios analizados y próximos pasos. Se revisará la estructura generada para asegurar que la presentación diferencie claramente hechos, hipótesis y supuestos.
 
-Práctica 3 (7 min): Los participantes solicitarán a Copilot asumir el rol de un directivo del cliente corporativo ficticio. Durante un breve juego de roles, Copilot cuestionará los supuestos, beneficios, diferenciadores y viabilidad de la propuesta. El participante responderá utilizando la evidencia obtenida durante el caso y, al finalizar, Copilot identificará las preguntas que fueron respondidas adecuadamente y aquellas para las que todavía sería necesario obtener información adicional.
+Práctica 3: Los participantes solicitarán a Copilot asumir el rol de un directivo del cliente corporativo ficticio y presentar una evaluación de opción múltiple. Copilot cuestionará los supuestos, beneficios y viabilidad de la propuesta mediante preguntas con opciones (A, B, C, D). El participante responderá seleccionando la opción adecuada y Copilot entregará retroalimentación inmediata sobre cada elección.
 
 ## Pasos para ejecutar la práctica
 
@@ -34,18 +34,16 @@ Práctica 3 (7 min): Los participantes solicitarán a Copilot asumir el rol de u
      Asegúrate de que en cada diapositiva se diferencie explícitamente entre Hechos, Hipótesis y Supuestos.
      ```
 
-3. **Simulación y Juego de Roles con el Cliente:**
+3. **Simulación con Preguntas de Selección Múltiple:**
    * Abre Copilot Chat, adjunta el documento `Speech_Comercial_Cliente.docx` y ejecuta el siguiente prompt:
      ```text
-     Con base en el documento adjunto Speech_Comercial_Cliente.docx, asume el rol del Director Financiero (CFO) del cliente corporativo ficticio. Tu objetivo es cuestionar mi propuesta comercial de forma crítica.
-     
-     Reglas de la simulación:
-     1. Hazme 3 preguntas desafiantes sobre los supuestos financieros, el retorno esperado y los diferenciadores.
-     2. Espérame a que responda una pregunta antes de hacer la siguiente.
-     3. Al finalizar, evalúa mi desempeño indicando qué puntos argumenté adecuadamente con evidencia y en cuáles cometí el error de presentar supuestos como hechos.
-     
-     Empieza saludando y haciéndome la primera pregunta crítica.
+     Con base en el documento adjunto Speech_Comercial_Cliente.docx, actúa como el CFO del cliente corporativo y evalúa mi propuesta comercial mediante una prueba rápida de opción múltiple.
+
+     Reglas:
+     1. Hazme 3 preguntas consecutivas de selección múltiple (A, B, C, D) sobre objeciones típicas: supuestos financieros, retorno de inversión y diferenciadores frente a la competencia.
+     2. Presenta la primera pregunta y espera a que yo responda solo indicando la letra de la opción (ej. "A").
+     3. Cuando responda, indícame inmediatamente si la opción elegida es correcta o incorrecta, explica brevemente por qué basándote en la evidencia del documento, y pasa a la siguiente pregunta.
      ```
 
 ## Resultado esperado
-Un documento de Word llamado `Speech_Comercial_Cliente.docx`, una presentación de 5 diapositivas generada automáticamente en PowerPoint vinculando los archivos del caso y la simulación interactiva de defensa comercial completada.
+Un documento de Word llamado `Speech_Comercial_Cliente.docx`, una presentación de 5 diapositivas generada automáticamente en PowerPoint vinculando los archivos del caso y una evaluación dinámica de opción múltiple completada con retroalimentación inmediata en Copilot Chat.
